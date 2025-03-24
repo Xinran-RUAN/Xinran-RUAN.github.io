@@ -11,35 +11,28 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in National University of Singapore, 2017 
+	* Supervisor: Professor Weizhu BAO 
+* B.S. in Peking University, 2012
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2017.01-2017.12: Research Assistant
+  * Department of Mathematics, National University of Singapore
+  * Supervisor: Professor Weizhu BAO
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2018.01-2019.05: Postdoc
+  * INRIA, Paris
+  * Supervisor: Professor Benoit PERTHAME, Luis ALMEIDA
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2019.06-2020.12: Postdoc
+  * LJLL, Sorbonne University
+  * Supervisor: Professor Benoit PERTHAME, Luis ALMEIDA
+
+* 2021.02-2021.10: Postdoc
+	* Department of Mathematics, Politecnico di Torino
+	* Supervisor: Professor Tommaso LORENZI
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
@@ -59,6 +52,4 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
