@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Xinran / Site Title"
+title                    : "Xinran / Personal Page"
 title_separator          : "-"
 name                     : &name "Xinran RUAN （阮欣然）"
 description              : &description "personal description"
