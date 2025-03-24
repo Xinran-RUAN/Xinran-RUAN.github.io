@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Xinran / Personal Page"
+title                    : "RUAN, Xinran （阮欣然）"
 title_separator          : "-"
-name                     : &name "Xinran RUAN （阮欣然）"
+name                     : &name "Xinran RUAN"
 description              : &description "personal description"
 url                      : https://Xinran-RUAN.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
