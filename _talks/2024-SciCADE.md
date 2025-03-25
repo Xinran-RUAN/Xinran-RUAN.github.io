@@ -7,6 +7,5 @@ venue: "SciCADE 2024"
 date: 2024-07-15
 location: "Singapore"
 ---
-
-SciCADE 2024 was held in National University of Singapore from 2024/07/15 to 2024/07/19.
+International Conference on Scientific Computation and Differential Equations
 [报告PPT](http://xinran-ruan.github.io/files/2024-PPT-SciCADE.pdf)
