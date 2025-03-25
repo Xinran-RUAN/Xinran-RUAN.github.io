@@ -9,7 +9,7 @@ author_profile: true
 
 {% assign counter = site.publications | size %}
 {% for post in site.publications reversed %}
-  {% assign numbered_title = "[" | append: counter | append: "] " | append: post.title %}
+  {% capture numbered_title %}[{{ counter }}] {{ post.title }}{% endcapture %}
   {% include archive-single.html post=post numbered_title=numbered_title %}
   {% assign counter = counter | minus: 1 %}
 {% endfor %}
