@@ -37,7 +37,7 @@
 
 <p>
   [{{ forloop.index }}]
-    {{ title}}, {{ authors }},
+    {{ title | strip }}, {{ authors }},
   <em>{{ post.venue }}</em>,
   {% if post.volume %} <strong>{{post.volume}}</strong> {% endif %}
   ({{ post.date | date: "%Y" }}),
