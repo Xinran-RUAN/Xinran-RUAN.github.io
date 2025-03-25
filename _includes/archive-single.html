@@ -37,7 +37,7 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
     <p>
-      [{{ include.index }}]
+      [{{ post.index }}]
       <a href="{{ post.paperurl | default: post.url }}"><strong>{{ post.title }}</strong></a>，
       {{ post.authors | markdownify | replace: 'X. Ruan', '<strong>X. Ruan</strong>' | remove: '<p>' | remove: '</p>' }},
       <em>{{ post.venue }}</em>
