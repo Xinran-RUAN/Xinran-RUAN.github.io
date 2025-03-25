@@ -5,8 +5,9 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
     <p>
-      [{{ include.index }}]
-      <a href="{{ post.paperurl | default: post.url }}"><strong>{{ post.title }}</strong></a>，
+      <a href="{{ post.paperurl | default: post.url }}">
+        <strong>{{ include.title_with_number }}</strong>
+      </a>，
       {{ post.authors | markdownify | replace: 'X. Ruan', '<strong>X. Ruan</strong>' | remove: '<p>' | remove: '</p>' }},
       <em>{{ post.venue }}</em>
       {% if post.volume %}{{ post.volume }}, {% endif %}
