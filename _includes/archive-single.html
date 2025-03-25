@@ -42,7 +42,7 @@
   </a>，
   {{ authors }},
   <em>{{ post.venue }}</em>,
-  {% if post.volume %}{{<strong>post.volume</strong>}} {% endif %}
+  {% if post.volume %} <strong>{{post.volume}}</strong> {% endif %}
   ({{ post.date | date: "%Y" }}),
   {% if post.pages %}{{ post.pages }}.{% endif %}
   {% if post.paperurl %}
