@@ -33,7 +33,7 @@
 
 	<!-- 文章标号？？ -->
 <p>
-  [{{ include.index }}]
+  [1]
   <a href="{{ post.paperurl | default: post.url }}"><strong>{{ post.title }}</strong></a>，
   {{ post.authors | markdownify | replace: 'X. Ruan', '<strong>X. Ruan</strong>' | remove: '<p>' | remove: '</p>' }},
   <em>{{ post.venue }}</em>
