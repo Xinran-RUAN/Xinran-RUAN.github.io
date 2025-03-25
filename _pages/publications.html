@@ -28,7 +28,11 @@ author_profile: true
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    {% assign counter = site.publications | size %}
+	{% for post in site.publications reversed %}
+  		{% include archive-single.html post=post index=counter %}
+  		{% assign counter = counter | minus: 1 %}
+	{% endfor %}
   {% endfor %}
 {% endif %}
 
