@@ -7,9 +7,21 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign counter = site.publications | size %}
-{% for post in site.publications reversed %}
-  {% capture numbered_title %}[{{ counter }}] {{ post.title }}{% endcapture %}
-  {% include archive-single.html post=post numbered_title=numbered_title %}
-  {% assign counter = counter | minus: 1 %}
-{% endfor %}
+{% if site.publication_category %}
+  {% for category in site.publication_category %}
+    {% assign title_shown = false %}
+    {% assign filtered = site.publications | where: "category", category[0] %}
+    {% for post in filtered reversed %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
