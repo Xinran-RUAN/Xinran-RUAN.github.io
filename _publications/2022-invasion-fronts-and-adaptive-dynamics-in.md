@@ -1,0 +1,12 @@
+---
+title: "Invasion fronts and adaptive dynamics in a model for the growth of cell populations with heterogeneous mobility"
+collection: publications
+date: 2022-01-01
+venue: "Eur. J. Appl. Math"
+volume: "33"
+pages: "766--783"
+authors: "Lorenzi, T. and Perthame, B. and Ruan, X."
+paperurl: "https://www.cambridge.org/core/product/identifier/S0956792521000218/type/journal_article"
+excerpt: "We consider a model for the dynamics of growing cell populations with heterogeneous mobility and proliferation rate. The cell phenotypic state is described by a continuous structuring variable and the evolution of the local cell population density function (i.e. the cell phenotypic distribution at each spatial position) is governed by a non-local advection–reaction–diffusion equation. We report on the results of numerical simulations showing that, in the case where the cell mobility is bounded, compactly supported travelling fronts emerge. More mobile phenotypic variants occupy the front edge, whereas more proliferative phenotypic variants are selected at the back of the front. In order to explain such numerical results, we carry out formal asymptotic analysis of the model equation using a Hamilton–Jacobi approach. In summary, we show that the locally dominant phenotypic trait (i.e. the maximum point of the local cell population density function along the phenotypic dimension) satisfies a generalised Burgers’ equation with source term, we construct travelling-front solutions of such transport equation and characterise the corresponding minimal speed. Moreover, we show that, when the cell mobility is unbounded, front edge acceleration and formation of stretching fronts may occur. We briefly discuss the implications of our results in the context of glioma growth."
+category: "manuscripts"
+---
