@@ -36,14 +36,14 @@
   {% assign authors = post.authors | replace: 'X. Ruan', '<strong>X. Ruan</strong>' %}
 
 <p>
-  <strong>[{{ forloop.index }}]</strong>
+  [{{ forloop.index }}]
   <a href="{{ post.paperurl | default: post.url }}">
-    <strong>{{ title }}</strong>
+    {{ title }}
   </a>，
   {{ authors }},
-  <em>{{ post.venue }}</em>
-  {% if post.volume %}{{ post.volume }}, {% endif %}
-  ({{ post.date | date: "%Y" }})
+  <em>{{ post.venue }}</em>,
+  {% if post.volume %}{{<strong>post.volume</strong>}} {% endif %}
+  ({{ post.date | date: "%Y" }}),
   {% if post.pages %}{{ post.pages }}.{% endif %}
   {% if post.paperurl %}
     [<a href="{{ post.paperurl }}" target="_blank">PDF</a>]
@@ -75,20 +75,6 @@
     {% endif %}
     {%- endcomment -%}
     
-    <!-- 如果设置了 citation 或下载链接，则展示 -->
-    {% if post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
-    {% elsif post.citation and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }}</p>
-    {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
-    {% elsif post.slidesurl %}
-      <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% endif %}
 
   </article>
 </div>
