@@ -1,12 +1,12 @@
-{% include base_path %}
 {% assign post = include.post %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+<div class="archive__item">
+  <article class="archive__item-body" itemscope itemtype="http://schema.org/CreativeWork">
 
     <p>
+      [{{ include.index }}]
       <a href="{{ post.paperurl | default: post.url }}">
-        <strong>{{ include.title_with_number }}</strong>
+        <strong>{{ post.title }}</strong>
       </a>，
       {{ post.authors | markdownify | replace: 'X. Ruan', '<strong>X. Ruan</strong>' | remove: '<p>' | remove: '</p>' }},
       <em>{{ post.venue }}</em>
@@ -19,9 +19,9 @@
     </p>
 
     {% if post.excerpt %}
-      <blockquote style="margin-top: -0.5em; font-size: 0.95em; color: #555;">
-        {{ post.excerpt }}
-      </blockquote>
+    <blockquote style="margin-top: -0.5em; font-size: 0.95em; color: #555;">
+      {{ post.excerpt }}
+    </blockquote>
     {% endif %}
 
   </article>

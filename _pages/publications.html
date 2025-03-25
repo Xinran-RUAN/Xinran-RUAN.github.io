@@ -1,3 +1,5 @@
+
+
 ---
 layout: archive
 title: "Publications"
@@ -7,34 +9,9 @@ author_profile: true
 
 {% include base_path %}
 
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% assign filtered = site.publications | where: "category", category[0] %}
-    {% assign counter = filtered | size %}
-    {% for post in filtered reversed %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-
-      <!-- 手动渲染每篇文章条目 -->
-      <div class="archive__item">
-        <p>
-          [{{ counter }}]
-          <a href="{{ post.paperurl | default: post.url }}"><strong>{{ post.title }}</strong></a>，
-          {{ post.authors | markdownify | replace: 'X. Ruan', '<strong>X. Ruan</strong>' | remove: '<p>' | remove: '</p>' }},
-          <em>{{ post.venue }}</em>
-          {% if post.volume %}{{ post.volume }}, {% endif %}
-          ({{ post.date | date: "%Y" }})
-          {% if post.pages %}{{ post.pages }}.{% endif %}
-          {% if post.paperurl %}
-            <a href="{{ post.paperurl }}" class="btn btn--sm btn--primary" target="_blank">PDF下载</a>
-          {% endif %}
-        </p>
-        {% if post.excerpt %}
-          <blockquote
-
-
-
+{% assign counter = site.publications | size %}
+{% for post in site.publications reversed %}
+  {% include archive-single.html post=post index=counter %}
+  {% assign counter = counter | minus: 1 %}
+{% endfor %}
 
