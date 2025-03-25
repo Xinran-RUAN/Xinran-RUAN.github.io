@@ -1,12 +1,14 @@
 ---
-title: "Optimal Resolution"
+title: "Optimal resolution methods for the Klein–Gordon–Dirac system in the nonrelativistic limit regime"
 collection: publications
 date: 2019-01-01
-venue: "J Sci Comput"
+venue: "J. Sci. Comput."
 volume: "79"
 pages: "1907--1935"
-authors: "Yi, Wenfan and Ruan, Xinran and Su, Chunmei"
-paperurl: "http://link.springer.com/10.1007/s10915-019-00919-0"
-excerpt: ""
+authors: "W. Yi, X. Ruan and C. Su"
+paperurl: "http://xinran-ruan.github.io/files/s10915-019-00919-0.pdf"
+excerpt: "Abstract"
 category: "manuscripts"
 ---
+Abstract: We propose and compare numerically spatial/temporal resolution of various efficient numerical methods for solving the Klein–Gordon–Dirac system (KGD) in the nonrelativistic limit regime. 
+[http://link.springer.com/10.1007/s10915-019-00919-0](http://link.springer.com/10.1007/s10915-019-00919-0)
