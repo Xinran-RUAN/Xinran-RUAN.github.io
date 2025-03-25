@@ -1,43 +1,11 @@
 {% include base_path %}
-<!--引入站点根路径 base_path，用于后续路径拼接-->
 {% assign post = include.post %}
 
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
-<!-- 判断该文章是否设置了 teaser 图像，如果没有就用默认 teaser -->
-
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post.title %}
-{% endif %}
-<!-- 为了处理 Markdown 中标题多余的 <p> 标签，做了清理 -->
-
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-	<!-- 文章容器开始 -->
-    {% if include.type == "grid" and teaser %}
-    <!-- 如果页面使用 grid 布局并且设置了 teaser 图像，就显示封面图 -->
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-
-	<!-- 文章标号？？ -->
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
     <p>
-      [{{ post.index }}]
+      [{{ include.index }}]
       <a href="{{ post.paperurl | default: post.url }}"><strong>{{ post.title }}</strong></a>，
       {{ post.authors | markdownify | replace: 'X. Ruan', '<strong>X. Ruan</strong>' | remove: '<p>' | remove: '</p>' }},
       <em>{{ post.venue }}</em>
@@ -53,61 +21,6 @@
       <blockquote style="margin-top: -0.5em; font-size: 0.95em; color: #555;">
         {{ post.excerpt }}
       </blockquote>
-    {% endif %}
-
-  </article>
-</div>
-
-
-
-	<!-- 显示文章标题，带链接 -->
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-       <!-- 如果设置了 post.link（外部链接），就跳转过去，并附上本页链接图标 -->
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-      <!-- 默认跳转到本地页面 -->
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </h2>
-    
-    <!-- 如果设置了 read_time，调用 read-time.html 显示预计阅读时间 -->
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-
-		<!-- 不同类型的内容显示不同的 meta 信息 -->
-        {% if post.collection == 'teaching' %}
-        <!-- 教学内容：显示类型 + venue + 年份 -->
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'publications' %}
-        <!-- 发表文章：显示 venue 和年份 -->
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.date %}
-        <!-- 其他页面：显示详细发布时间 -->
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-
-	<!-- 如果开启了 excerpt 摘要 -->
-    {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
-    {% endif %}
-    
-    <!-- 如果设置了 citation 或下载链接，则展示 -->
-    {% if post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
-    {% elsif post.citation and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }}</p>
-    {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
-    {% elsif post.slidesurl %}
-      <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% endif %}
 
   </article>
