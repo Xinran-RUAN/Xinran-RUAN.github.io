@@ -37,7 +37,7 @@
 
 <p>
   [{{ forloop.index }}]
-  <a href="{{ post.paperurl | default: post.url }}">
+  <a href="{{ post.url | relative_url }}">
     {{ title }}
   </a>，
   {{ authors }},
@@ -45,17 +45,14 @@
   {% if post.volume %} <strong>{{post.volume}}</strong> {% endif %}
   ({{ post.date | date: "%Y" }}),
   {% if post.pages %}{{ post.pages }}.{% endif %}
+  {% if post.excerpt %}
+    [<a href="{{ post.url | relative_url }}">Abstract</a>]
+    {% endif %}
   {% if post.paperurl %}
     [<a href="{{ post.paperurl }}" target="_blank">PDF</a>]
   {% endif %}
 </p>
 
-
-    
-    <!-- 如果设置了 read_time，调用 read-time.html 显示预计阅读时间 -->
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
 
     <!-- 不同类型的内容显示不同的 meta 信息 -->
         {% if post.collection == 'teaching' %}
