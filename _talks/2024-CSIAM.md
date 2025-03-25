@@ -8,4 +8,5 @@ date: 2024/10/27
 location: "江苏南京"
 ---
 
+[报告PPT](http://xinran-ruan.github.io/files/2024-PPT-CSIAM.pdf)
 
