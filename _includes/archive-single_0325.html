@@ -69,11 +69,11 @@
         {% endif %}
 
   <!-- 如果开启了 excerpt 摘要 -->
-    {%- comment -%}
-    {% if post.excerpt %}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    {% if post.excerpt and site.read_more != 'enabled' %}
+    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    {% elsif post.excerpt and site.read_more == 'enabled' %}
+    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
-    {%- endcomment -%}
     
     <!-- 如果设置了 citation 或下载链接，则展示 -->
     {% if post.citation and post.paperurl and post.slidesurl %}
