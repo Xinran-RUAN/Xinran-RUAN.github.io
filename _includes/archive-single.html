@@ -57,7 +57,6 @@
         {% if post.collection == 'teaching' %}
         <!-- 教学内容：显示类型 + venue + 年份 -->
           <p>
-          [{{ forloop.index }}]
           {{ post.date | default: "1900-01-01" | date: "%Y" }}, 
           {{ post.title | strip }}({{ post.type }}),
           <i>{{ post.venue }}</i>
