@@ -51,22 +51,7 @@
 </p>
 
 
-    <!-- 不同类型的内容显示不同的 meta 信息 -->
-        {% if post.collection == 'teaching' %}
-        <!-- 教学内容：显示类型 + venue + 年份 -->
-          <p>
-          {{ post.date | default: "1900-01-01" | date: "%Y" }}, 
-          {{ post.title | strip }}({{ post.type }}),
-          <i>{{ post.venue }}</i>
-            {% if post.excerpt %}
-                [<a href="{{ post.url | relative_url }}">Details</a>]
-            {% endif %}
-          </p>
-        {% elsif post.date %}
-        <!-- 其他页面：显示详细发布时间 -->
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-
+  
   <!-- 如果开启了 excerpt 摘要 -->
     {%- comment -%}
     {% if post.excerpt %}
