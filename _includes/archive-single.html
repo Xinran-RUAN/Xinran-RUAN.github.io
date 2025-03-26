@@ -35,6 +35,18 @@
   {% assign title = post.title | markdownify | strip_html %}
   {% assign authors = post.authors | replace: 'X. Ruan', '<strong>X. Ruan</strong>' %}
 
+{% if post.collection == 'teaching' %}
+<p>
+  [{{ forloop.index }}]
+    post.date | date: "%Y",
+    {{ title | strip }},
+    {{ post.type }},
+  <em>{{ post.venue }}</em>,
+  {% if post.excerpt %}
+    [<a href="{{ post.url | relative_url }}">Details</a>]
+    {% endif %}
+</p>
+{% elsif post.collection == 'manuscripts' %}
 <p>
   [{{ forloop.index }}]
     {{ authors | strip }}, {{ title | strip }}, 
@@ -49,7 +61,7 @@
     [<a href="{{ post.paperurl }}" target="_blank">PDF</a>]
   {% endif %}
 </p>
-
+{% endif %}
 
   
   <!-- 如果开启了 excerpt 摘要 -->
