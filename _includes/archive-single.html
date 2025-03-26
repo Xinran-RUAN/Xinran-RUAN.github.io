@@ -56,7 +56,11 @@
     <!-- 不同类型的内容显示不同的 meta 信息 -->
         {% if post.collection == 'teaching' %}
         <!-- 教学内容：显示类型 + venue + 年份 -->
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+          <p>
+          [{{ forloop.index }}]
+          {{ post.date | default: "1900-01-01" | date: "%Y" }}
+          {{ post.title | strip }}(post.type),
+          <i>{{ post.venue }}</i>
             {% if post.excerpt %}
                 [<a href="{{ post.url | relative_url }}">Details</a>]
             {% endif %}
