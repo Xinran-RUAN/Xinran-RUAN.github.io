@@ -10,18 +10,17 @@ redirect_from:
 
 <strong>Welcome to my academic homepage!</strong>
 
-<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 20px;">
-  <div>
-  
-    <p>I am <a href="https://math.cnu.edu.cn/FACULTY/qtjs2/szmjs/R/3d23cacad76a494c98dd5011bfdaf226.htm">Xinran RUAN</a>, an Associate Professor in the School of Mathematical Sciences at Capital Normal University. My research is centered on scientific computing and numerical analysis, particularly the design and analysis of structure-preserving algorithms for complex physical and biological systems.</p>
-    
-    <p>My work focuses on the development of efficient and accurate numerical methods for partial differential equations (PDEs), with applications in cold atom systems (such as Bose–Einstein condensates) and population dynamics in biology.</p>
 
-  </div>
-  <img src="/images/my_photo_Toledo.jpg" alt="Xinran Ruan" style="width: 350px; max-height: 350px; object-fit: cover; border-radius: 8px;">
-</div>
+  
+ I am <a href="https://math.cnu.edu.cn/FACULTY/qtjs2/szmjs/R/3d23cacad76a494c98dd5011bfdaf226.htm">Xinran RUAN</a>, an Associate Professor in the School of Mathematical Sciences at Capital Normal University. My research is centered on scientific computing and numerical analysis, particularly the design and analysis of structure-preserving algorithms for complex physical and biological systems.
+    
+My work focuses on the development of efficient and accurate numerical methods for partial differential equations (PDEs), with applications in cold atom systems (such as Bose–Einstein condensates) and population dynamics in biology.
 
 Feel free to explore my publications, talks, and teaching pages to learn more about my work. For any inquiries or collaborations, you are welcome to reach out via the sidebar email link or directly at <a href="mailto:xinran.ruan@cnu.edu.cn">xinran.ruan@cnu.edu.cn</a>.
+
+<p align="center">
+  <img src="/images/my_photo_Toledo.jpg" alt="Xinran Ruan" style="width: 350px; border-radius: 10px; margin-bottom: 20px;">
+</p>
 
 ### Education Background
 * 2008-2012, Peking University, Bachelor of Science
