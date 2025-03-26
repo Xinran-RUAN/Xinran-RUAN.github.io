@@ -7,28 +7,21 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<img src="/images/my_photo_Toledo.jpg" style="float: right; margin: 10px 20px 10px 0; width: 400px; border-radius: 8px;">
 
-Welcome to my academic homepage!
-
-I am [Xinran RUAN](https://math.cnu.edu.cn/FACULTY/qtjs2/szmjs/R/3d23cacad76a494c98dd5011bfdaf226.htm), an Associate Professor in the School of Mathematical Sciences at Capital Normal University. My research is centered on scientific computing and numerical analysis, particularly the design and analysis of structure-preserving algorithms for complex physical and biological systems.
-My work focuses on the development of efficient and accurate numerical methods for partial differential equations (PDEs), with applications in cold atom systems (such as Bose–Einstein condensates) and population dynamics in biology. 
-
-Feel free to explore my publications, talks, and teaching pages to learn more about my work.
-For any inquiries or collaborations, you are welcome to reach out via the sidebar email link or directly at [xinran.ruan@cnu.edu.cn](mailto:xinran.ruan@cnu.edu.cn).
+<strong>Welcome to my academic homepage!</strong>
 
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 20px;">
-  <img src="/images/my_photo_Toledo.jpg" alt="Xinran Ruan" style="width: 250px; border-radius: 8px;">
   <div>
-    <p><strong>Welcome to my academic homepage!</strong></p>
-
+  
     <p>I am <a href="https://math.cnu.edu.cn/FACULTY/qtjs2/szmjs/R/3d23cacad76a494c98dd5011bfdaf226.htm">Xinran RUAN</a>, an Associate Professor in the School of Mathematical Sciences at Capital Normal University. My research is centered on scientific computing and numerical analysis, particularly the design and analysis of structure-preserving algorithms for complex physical and biological systems.</p>
 
-    <p>My work focuses on the development of efficient and accurate numerical methods for partial differential equations (PDEs), with applications in cold atom systems (such as Bose–Einstein condensates) and population dynamics in biology.</p>
-
-    <p>Feel free to explore my publications, talks, and teaching pages to learn more about my work. For any inquiries or collaborations, you are welcome to reach out via the sidebar email link or directly at <a href="mailto:xinran.ruan@cnu.edu.cn">xinran.ruan@cnu.edu.cn</a>.</p>
   </div>
+  <img src="/images/my_photo_Toledo.jpg" alt="Xinran Ruan" style="width: 250px; max-height: 320px; object-fit: cover; border-radius: 8px;">
 </div>
+
+My work focuses on the development of efficient and accurate numerical methods for partial differential equations (PDEs), with applications in cold atom systems (such as Bose–Einstein condensates) and population dynamics in biology.
+
+Feel free to explore my publications, talks, and teaching pages to learn more about my work. For any inquiries or collaborations, you are welcome to reach out via the sidebar email link or directly at <a href="mailto:xinran.ruan@cnu.edu.cn">xinran.ruan@cnu.edu.cn</a>.
 
 ### Education Background
 * 2008-2012, Peking University, Bachelor of Science
@@ -61,8 +54,8 @@ For any inquiries or collaborations, you are welcome to reach out via the sideba
 
 [4]  L. Almeida, B. Perthame and **X. Ruan**, [An asymptotic preserving scheme for capturing concentrations in age-structured models arising in adaptive dynamics](http://xinran-ruan.github.io/files/2022-age-structure_LA_BP_XR.pdf), J. Comput. Phys., 464 (2022), 111335.
 
-### Funding and Award
-[1] 2020, Beijing Overseas Talent Aggregation Project (BOTAP)
+### Fundings and Awards
+[1] 2021, Beijing Overseas Talent Aggregation Project (BOTAP)
 
 [2] 2023 - 2025, *Numerical methods for two nonstandard Gross-Pitaevskii equations*, Young Scientists Fund of the National Natural Science Foundation of China (No. 12201436)
 
