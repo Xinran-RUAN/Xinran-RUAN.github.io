@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "About me"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Xinran RUAN"
 description              : &description "personal description"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Xinran RUAN"
   pronouns         : # he/his # example: "she/her"  
-  bio              : "Researcher in Scientific Computing and Applied Analysis"
+  bio              : "Scientific Computing, Numerical PDE, Applied Analysis"
   location         : "Beijing, China"
   employer         : "Capital Normal University"
   uri              : # URL

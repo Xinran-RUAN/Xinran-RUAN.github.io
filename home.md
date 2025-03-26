@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<img src="/images/my_photo_Toledo.jpg" style="float: left; margin: 10px 20px 10px 0; width: 200px; border-radius: 8px;">
+<img src="/images/my_photo_Toledo.jpg" style="float: right; margin: 10px 20px 10px 0; width: 200px; border-radius: 8px;">
 
 Welcome to my academic homepage. 
 I am [Xinran RUAN](https://math.cnu.edu.cn/FACULTY/qtjs2/szmjs/R/3d23cacad76a494c98dd5011bfdaf226.htm), an associate professor in School of Mathematical Sciences, Capital Normal University, working on scientific computing and numerical analysis. 
