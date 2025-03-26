@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<img src="/images/my_photo_Toledo.jpg" style="float: right; margin: 10px 20px 10px 0; width: 300px; border-radius: 8px;">
+<img src="/images/my_photo_Toledo.jpg" style="float: right; margin: 10px 20px 10px 0; width: 500px; border-radius: 8px;">
 
 Welcome to my academic homepage!
 
