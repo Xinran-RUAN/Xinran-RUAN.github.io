@@ -1,6 +1,7 @@
 ---
 permalink: /home/
 title: "Home"
+nav_exclude: true
 author_profile: true
 redirect_from: 
   - /about/
