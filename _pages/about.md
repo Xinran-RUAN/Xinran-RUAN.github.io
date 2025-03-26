@@ -1,15 +1,15 @@
 ---
-permalink: /
+permalink: /home/
 title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-I am [Xinran RUAN](https://math.cnu.edu.cn/FACULTY/qtjs2/szmjs/R/3d23cacad76a494c98dd5011bfdaf226.htm), an associate professor in School of Mathematical Sciences, Capital Normal University. 
-
 <img src="/images/my_photo_Toledo.jpg" style="float: left; margin: 10px 20px 10px 0; width: 200px; border-radius: 8px;">
+
+Welcome to my academic homepage. 
+I am [Xinran RUAN](https://math.cnu.edu.cn/FACULTY/qtjs2/szmjs/R/3d23cacad76a494c98dd5011bfdaf226.htm), an associate professor in School of Mathematical Sciences, Capital Normal University. 
 
 
 I received my B.S. degree from Peking University in 2012, and my Ph.D. from the National University of Singapore under the supervision of Prof. Weizhu Bao. After that, I held postdoctoral positions at the Laboratoire Jacques-Louis Lions (LJLL), Sorbonne University, under the supervision of Prof. Benoît Perthame, and at Politecnico di Torino, working with Prof. Tommaso Lorenzi. I joined Capital Normal University in 2021.
