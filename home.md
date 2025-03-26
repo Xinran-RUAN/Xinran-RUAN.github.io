@@ -9,17 +9,18 @@ redirect_from:
 ---
 <img src="/images/my_photo_Toledo.jpg" style="float: right; margin: 10px 20px 10px 0; width: 300px; border-radius: 8px;">
 
-Welcome to my academic homepage. 
+Welcome to my academic homepage!
+
 I am [Xinran RUAN](https://math.cnu.edu.cn/FACULTY/qtjs2/szmjs/R/3d23cacad76a494c98dd5011bfdaf226.htm), an associate professor in School of Mathematical Sciences, Capital Normal University, working on scientific computing and numerical analysis. 
 
 My research interests lie in the development and analysis of numerical methods for partial differential equations (PDEs), with a particular focus on applications in cold atom systems and population dynamics in biology.
 
-### Education
+### Education Background
 * 2008-2012, Peking University, Bachelor of Science
 * 2012-2017, National University of Singapore, Ph.D
 	* Supervisor: Prof. Weizhu BAO
 
-### Working experience
+### Work Experience
 * 2017.01-2017.12: Research Assistant
 	* Department of Mathematics, National University of Singapore
 	* Supervisor: Professor Weizhu BAO
@@ -36,14 +37,21 @@ My research interests lie in the development and analysis of numerical methods f
 
 
 
-## Selected publications:
-[1] X. Ruan, [A normalized gradient flow method with attractive-repulsive splitting for computing ground states of Bose-Einstein condensates with higher-order interaction](http://xinran-ruan.github.io/files/5_Gradient_Flow_JCP.pdf), J. Comput. Phys., 367 (2018), 374--390.
+### Selected Publications:
+[1] **X. Ruan**, [A normalized gradient flow method with attractive-repulsive splitting for computing ground states of Bose-Einstein condensates with higher-order interaction](http://xinran-ruan.github.io/files/5_Gradient_Flow_JCP.pdf), J. Comput. Phys., 367 (2018), 374--390.
 
-[2] W. Bao and X. Ruan, [Computing ground states of Bose–Einstein condensates with higher order interaction via a regularized density function formulation](http://xinran-ruan.github.io/files/19-SISC.pdf), SIAM J. Sci. Comput., 41 (2019), B1284--B1309. 
+[2] W. Bao and **X. Ruan**, [Computing ground states of Bose–Einstein condensates with higher order interaction via a regularized density function formulation](http://xinran-ruan.github.io/files/19-SISC.pdf), SIAM J. Sci. Comput., 41 (2019), B1284--B1309. 
 
-[3] T. Lorenzi, B. Perthame and X. Ruan, [Invasion fronts and adaptive dynamics in a model for the growth of cell populations with heterogeneous mobility](http://xinran-ruan.github.io/files/2022-EJAM-preprint.pdf), Eur. J. Appl. Math, 33 (2022), 766--783. 
+[3] T. Lorenzi, B. Perthame and **X. Ruan**, [Invasion fronts and adaptive dynamics in a model for the growth of cell populations with heterogeneous mobility](http://xinran-ruan.github.io/files/2022-EJAM-preprint.pdf), Eur. J. Appl. Math, 33 (2022), 766--783. 
 
-[4]  L. Almeida, B. Perthame and X. Ruan, [An asymptotic preserving scheme for capturing concentrations in age-structured models arising in adaptive dynamics](http://xinran-ruan.github.io/files/2022-age-structure_LA_BP_XR.pdf), J. Comput. Phys., 464 (2022), 111335.
+[4]  L. Almeida, B. Perthame and **X. Ruan**, [An asymptotic preserving scheme for capturing concentrations in age-structured models arising in adaptive dynamics](http://xinran-ruan.github.io/files/2022-age-structure_LA_BP_XR.pdf), J. Comput. Phys., 464 (2022), 111335.
+
+### Funding and Award
+[1] 2020, Beijing Overseas Talent Aggregation Project (BOTAP)
+
+[2] 2023 - 2025, *Numerical methods for two nonstandard Gross-Pitaevskii equations*, Young Scientists Fund of the National Natural Science Foundation of China (No. 12201436)
+
+[3] 2023 - 2025, *Evolution and structure-preserving algorithms of composite structured population models*, R&D Program of Beijing Municipal Education Commission (No. KM202310028016)
 
 
 
