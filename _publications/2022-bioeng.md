@@ -11,4 +11,5 @@ excerpt: "Abstract"
 category: "manuscripts"
 ---
 Abstract: We developed an individual-based model for the growth of phenotypically heterogeneous cell populations. We formally show that the continuum limit of this model comprises a non-local partial differential equation for the cell population density function, which generalises earlier models of growing cell populations.
+
 [http://www.aimspress.com/article/doi/10.3934/bioeng.2022007](http://www.aimspress.com/article/doi/10.3934/bioeng.2022007)

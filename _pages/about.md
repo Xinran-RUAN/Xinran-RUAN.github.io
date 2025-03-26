@@ -2,8 +2,9 @@
 permalink: /home/
 title: "About me"
 author_profile: true
-redirect_to: 
-  - /home/
+redirect_from: 
+  - /home/about/
+  - /about.html
 ---
 <img src="/images/my_photo_Toledo.jpg" style="float: left; margin: 10px 20px 10px 0; width: 200px; border-radius: 8px;">
 
