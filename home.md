@@ -12,10 +12,10 @@ redirect_from:
 Welcome to my academic homepage!
 
 I am Xinran RUAN, an Associate Professor in the School of Mathematical Sciences at Capital Normal University. My research is centered on scientific computing and numerical analysis, particularly the design and analysis of structure-preserving algorithms for complex physical and biological systems.
-
 My work focuses on the development of efficient and accurate numerical methods for partial differential equations (PDEs), with applications in cold atom systems (such as Bose–Einstein condensates) and population dynamics in biology. 
 
-Feel free to explore my publications, talks, and teaching pages for more information.
+Feel free to explore my publications, talks, and teaching pages to learn more about my work.
+For any inquiries or collaborations, you are welcome to reach out via the sidebar email link or directly at [xinran.ruan@cnu.edu.cn](mailto:xinran.ruan@cnu.edu.cn).
 
 ### Education Background
 * 2008-2012, Peking University, Bachelor of Science
