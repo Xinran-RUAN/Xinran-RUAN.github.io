@@ -35,6 +35,7 @@
   {% assign title = post.title | markdownify | strip_html %}
   {% assign authors = post.authors | replace: 'X. Ruan', '<strong>X. Ruan</strong>' %}
 
+{% if post.collection == 'manuscripts' %}
 <p>
   [{{ forloop.index }}]
     {{ authors | strip }}, {{ title | strip }}, 
@@ -49,6 +50,7 @@
     [<a href="{{ post.paperurl }}" target="_blank">PDF</a>]
   {% endif %}
 </p>
+{% endif %}
 
 
     <!-- 不同类型的内容显示不同的 meta 信息 -->
