@@ -14,4 +14,4 @@ Abstract: Keller-Segel type models, which were originally proposed for pattern f
 In this talk, I will show how the individual mechanisms at the cell level can lead to volume-filling effects at the population level. A novel nonlinear kinetic ‘velocity jump’ model, which converges to the volume-filling Keller-Segel model in the diffusion limit, will be introduced. To numerically verify the consistency of the new model, an asymptotic preserving scheme, which is based on the macro-micro decomposition technique, will be proposed.
 
 
-[报告PPT](http://xinran-ruan.github.io/files/2022-PPT-CSIAM.pdf)
+[报告PPT](http://xinran-ruan.github.io/files/PPT-2022-CSIAM.pdf)

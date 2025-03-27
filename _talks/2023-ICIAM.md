@@ -14,4 +14,4 @@ Abstract: The binary interaction in Gross-Pitaevskii equation, which is a big su
 
 In the talk, I will show new phenomenon introduced by HOI, such as the non-Gaussian type approximations in dimension reduction problems，new types of Thomas-Fermi approximations. Besides, two algorithms for computing ground states, which overcome the stability issue, will be presented.
 
-[报告PPT](http://xinran-ruan.github.io/files/2023-PPT-ICIAM.pdf)
+[报告PPT](http://xinran-ruan.github.io/files/PPT-2023-ICIAM.pdf)

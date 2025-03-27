@@ -34,4 +34,4 @@ Such kinds of tumor growth models and simple and easy to be generalized, and thu
 
 **Abstract**: Mechanical models of tumor growth based on a porous medium approach have been attractinga lot of interest both analytically and numerically. In this talk, I will show the stability properties,based on which we can further show the asymptotic preserving property, of some nitedi erence scheme for a model where the density evolves down pressure gradients and thegrowth rate depends on the pressure and possibly nutrients.
 
-[报告PPT](http://xinran-ruan.github.io/files/2024-PPT-ECMTB.pdf)
+[报告PPT](http://xinran-ruan.github.io/files/PPT-2024-ECMTB.pdf)
