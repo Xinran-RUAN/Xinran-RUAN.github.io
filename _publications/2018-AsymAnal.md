@@ -6,7 +6,7 @@ venue: "Asymp. Anal."
 volume: "110"
 pages: "53--82"
 authors: "W. Bao and X. Ruan"
-paperurl: "http://xinran-ruan.github.io/files/bao-ruan-2018-fundamental-gaps-of-the-gross-pitaevskii-equation-with-repulsive-interaction.pdf"
+paperurl: "http://xinran-ruan.github.io/files/2018-AsymAnal.pdf"
 excerpt: "Abstract"
 category: "manuscripts"
 ---

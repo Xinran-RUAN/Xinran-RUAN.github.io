@@ -5,7 +5,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2023-ICIAM
 venue: "ICIAM 2023"
-date: 2023-08
+date: 2023-08-23
 location: "Waseda University, Tokyo, Japan"
 ---
 International Council for Industrial and Applied Mathematics(国际工业与应用数学联合会), 2023-08-21 - 2023-08-25.

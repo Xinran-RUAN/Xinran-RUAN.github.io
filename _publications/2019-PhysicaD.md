@@ -6,7 +6,7 @@ venue: "Physica D"
 volume: "386-387"
 pages: "38--48"
 authors: "W. Bao, Y. Cai and X. Ruan"
-paperurl: "http://xinran-ruan.github.io/files/2019-BaoCaiRuan-PhysicaD.pdf"
+paperurl: "http://xinran-ruan.github.io/files/2019-PhysicaD.pdf"
 excerpt: "Abstract"
 category: "manuscripts"
 ---
