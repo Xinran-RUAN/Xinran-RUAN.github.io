@@ -7,7 +7,9 @@ venue: "CSIAM 2022"
 date: 2022-11-20
 location: "Online"
 ---
-中国工业与应用数学学会第二十一届年会 
+中国工业与应用数学学会第二十届年会，2022-11-18 - 2022-11-20，线上
+
+分论坛 - TM20 非光滑色散类方程及相关模型的计算与分析
 
 Abstract: Keller-Segel type models, which were originally proposed for pattern formation in bacterial populations, can be modified to be better consistent with biological systems. Taking into account the finite size of the cells and volume limitations in space leads to the so-called “volume-filling” Keller-Segel model, which prevents the finite time blow-up of solution.
 

@@ -8,7 +8,9 @@ date: 2024-07-24
 location: "Toledo, Spain"
 ---
 13th European conference on Mathematical
-and Theoretical Biology（第13届关于数学和理论生物学的欧洲会议），2024-07-22 - 2024-07-26, Toledo, Spain
+and Theoretical Biology, 2024-07-22 - 2024-07-26, Toledo, Spain
+
+第13届关于数学和理论生物学的欧洲会议
 
 **Organizor of a mini-symposium**: Recent developments on
 tumor growth models: analysis and simulations

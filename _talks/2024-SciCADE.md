@@ -7,7 +7,9 @@ venue: "SciCADE 2024"
 date: 2024-07-15
 location: "Singapore"
 ---
-International Conference on Scientific Computation and Differential Equations（2024科学计算与微分方程国际会议）, Singapore
+International Conference on Scientific Computation and Differential Equations, 2024-07-15 - 2024-07-19, Singapore
+
+2024科学计算与微分方程国际会议
 
 Abstract: The Gross-Pitaevskii equation (GPE) has proven to be a big success in describing the Bose-Einstein condensate(BEC), where only the binary interaction approximated by the Fermi contact interaction is considered. However, in the case of higher particle densities, a modification of the model is necessary. One choice is to include a higher order interaction (HOI) term in the binary interaction part, which will lead to the modified GPE.
 
