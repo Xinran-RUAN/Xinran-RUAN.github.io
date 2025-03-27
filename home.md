@@ -23,8 +23,8 @@ Feel free to explore my publications, talks, and teaching pages to learn more ab
 </p>
 
 ### Education Background
-* 2008-2012, Peking University, Bachelor of Science
-* 2012-2017, National University of Singapore, Ph.D
+* 2008-2012,	Peking University,	B.Sc.
+* 2012-2017,	National University of Singapore,	Ph.D
 	* Supervisor: Prof. Weizhu BAO
 
 ### Work Experience
