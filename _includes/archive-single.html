@@ -40,8 +40,8 @@
   [{{ forloop.index }}]
     {{ post.date | date: "%Y" }},
     {{ title | strip }},
-    {{ post.type }},
-  <em>{{ post.venue }}</em> 
+    <em>{{ post.type }},</em>
+    {{ post.venue }}
   {% if post.excerpt %}
     [<a href="{{ post.url | relative_url }}">Details</a>]
     {% endif %}
