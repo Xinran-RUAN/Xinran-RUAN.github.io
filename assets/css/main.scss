@@ -45,4 +45,20 @@
 img {
   border-radius: 0 !important;
 }
+.profile {
+  display: flex;
+  gap: 20px; /* 控制头像和文字之间的间距 */
+  align-items: flex-start; /* 确保头像和文字顶部对齐 */
+}
+
+.profile-img {
+  width: 200px; /* 设置头像宽度 */
+  height: auto;
+  border-radius: 0; /* 使头像为方形 */
+}
+
+.profile-text {
+  flex: 1; /* 右侧文本部分占据剩余空间 */
+  text-align: justify; /* 让文字两端对齐 */
+}
 
