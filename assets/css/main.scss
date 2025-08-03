@@ -41,7 +41,10 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
-
+// === Override styles: 头像改为方形 ===
+img {
+  border-radius: 0 !important;
+}
 .profile {
   display: flex;
   gap: 20px; /* 控制头像和文字之间的间距 */
@@ -55,7 +58,9 @@
 }
 
 .profile-text {
-  flex: 1; /* 右侧文本部分占据剩余空间 */
-  text-align: justify; /* 让文字两端对齐 */
+    display: inline-block;
+  vertical-align: top; /* 确保文本和头像顶部对齐 */
+  width: calc(100% - 220px); /* 确保文本占据剩余空间 */
+  text-align: justify; /* 使文字两端对齐 */
 }
 
