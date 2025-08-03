@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 <strong>Welcome to my academic homepage!</strong>
+ 
 
   
 I am <a href="https://math.cnu.edu.cn/FACULTY/qtjs2/szmjs/R/3d23cacad76a494c98dd5011bfdaf226.htm">Xinran RUAN</a>, an Associate Professor in the School of Mathematical Sciences at Capital Normal University and an applied mathematician specializing in modeling, scientific computing, and numerical analysis.
