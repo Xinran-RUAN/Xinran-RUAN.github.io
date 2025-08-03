@@ -46,10 +46,3 @@ img {
   border-radius: 0 !important;
 }
 
-.profile-text {
-    display: inline-block;
-  vertical-align: top; /* 确保文本和头像顶部对齐 */
-  width: calc(100% - 220px); /* 确保文本占据剩余空间 */
-  text-align: justify; /* 使文字两端对齐 */
-}
-
