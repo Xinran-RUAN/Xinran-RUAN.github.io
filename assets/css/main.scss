@@ -41,3 +41,7 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+// === Override styles: 头像改为方形 ===
+img {
+  border-radius: 0 !important;
+}
