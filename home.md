@@ -21,7 +21,37 @@ draft: false
   <div class="profile-text">
     <h1>{{ .Params.name }}</h1>
     <p>{{ .Params.bio }}</p>
-    <!-- 其他个人介绍文本 -->
+    <!-- I am <a href="https://math.cnu.edu.cn/FACULTY/qtjs2/szmjs/R/3d23cacad76a494c98dd5011bfdaf226.htm">Xinran RUAN</a>, an Associate Professor in the School of Mathematical Sciences at Capital Normal University and an applied mathematician specializing in modeling, scientific computing, and numerical analysis.
+
+My research focuses on the development and analysis of efficient, structure-preserving numerical methods for partial differential equations (PDEs) and partial integro-differential equations (PIDEs), with applications in quantum physics—such as cold atom systems including Bose–Einstein condensates—and in mathematical biology, including models of population dynamics.
+
+Feel free to explore my publications, talks, and teaching pages to learn more about my work. For any inquiries or collaborations, you are welcome to reach out via the sidebar email link or directly at <a href="mailto:xinran.ruan@cnu.edu.cn">xinran.ruan@cnu.edu.cn</a>.
+
+<p align="center">
+  <img src="/images/my_photo_Toledo.jpg" alt="Xinran Ruan" style="width: 350px; border-radius: 10px; margin-bottom: 20px;">
+</p>
+
+### Education Background
+* 2008-2012,	Peking University,	B.Sc.
+* 2012-2017,	National University of Singapore,	Ph.D
+	* Supervisor: Prof. Weizhu BAO
+
+### Work Experience
+* 2017.01-2017.12: Research Assistant
+	* Department of Mathematics, National University of Singapore
+	* Supervisor: Professor Weizhu BAO
+* 2018.01-2019.05: Postdoc
+	* INRIA, Paris
+	* Supervisor: Professor Benoit PERTHAME, Luis ALMEIDA
+* 2021.02-2021.10: Postdoc
+	* Department of Mathematics, Politecnico di Torino
+	* Supervisor: Professor Tommaso LORENZI
+* 2021.11-2022.12: Lecturer
+	* School of Mathematical Science, Capital Normal University
+* 2023.01-now: Associate Professor
+	* School of Mathematical Science, Capital Normal University
+
+ -->
   </div>
 </div>
 
