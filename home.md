@@ -10,6 +10,22 @@ redirect_from:
 
 <strong>Welcome to my academic homepage!</strong>
 
+---
+title: "Welcome to my academic homepage!"
+date: 2025-08-03
+draft: false
+---
+
+<div class="profile">
+  <img src="/images/your-avatar.jpg" alt="头像" class="profile-img">
+  <div class="profile-text">
+    <h1>{{ .Params.name }}</h1>
+    <p>{{ .Params.bio }}</p>
+    <!-- 其他个人介绍文本 -->
+  </div>
+</div>
+
+
 
   
 I am <a href="https://math.cnu.edu.cn/FACULTY/qtjs2/szmjs/R/3d23cacad76a494c98dd5011bfdaf226.htm">Xinran RUAN</a>, an Associate Professor in the School of Mathematical Sciences at Capital Normal University and an applied mathematician specializing in modeling, scientific computing, and numerical analysis.
